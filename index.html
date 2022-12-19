@@ -12,7 +12,7 @@
       <div class="container">
         <div class="circle__wrapper">
           <div class="circle__block">
-            <div class="circle__one">
+            <div id="left" class="circle__one">
               <div class="circle__left">
                 <span class="circle__left--span"> </span>
                 <span class="circle__left--span"> </span>
@@ -28,7 +28,7 @@
                 <span class="circle__left--span"> </span>
               </div>
             </div>
-            <div class="circle__two">
+            <div id="right" class="circle__two">
               <div class="circle__right">
                 <span class="circle__right--span"> </span>
                 <span class="circle__right--span"> </span>
@@ -40,6 +40,7 @@
           </div>
           <form action="#" class="circle__form">
             <input
+              id="input"
               name="input"
               class="circle__inp"
               type="number"
@@ -47,18 +48,19 @@
               minlength="1"
               maxlength="2"
               min="0"
+              max="99"
             />
             <div class="circle__btns">
-              <button type="submit" class="circle__btn">0</button>
-              <button type="submit" class="circle__btn">1</button>
-              <button type="submit" class="circle__btn">2</button>
-              <button type="submit" class="circle__btn">3</button>
-              <button type="submit" class="circle__btn">4</button>
-              <button type="submit" class="circle__btn">5</button>
-              <button type="submit" class="circle__btn">6</button>
-              <button type="submit" class="circle__btn">7</button>
-              <button type="submit" class="circle__btn">8</button>
-              <button type="submit" class="circle__btn">9</button>
+              <button type="submit" id="btn-0">0</button>
+              <button type="submit" id="btn-1">1</button>
+              <button type="submit" id="btn-2">2</button>
+              <button type="submit" id="btn-3">3</button>
+              <button type="submit" id="btn-4">4</button>
+              <button type="submit" id="btn-5">5</button>
+              <button type="submit" id="btn-6">6</button>
+              <button type="submit" id="btn-7">7</button>
+              <button type="submit" id="btn-8">8</button>
+              <button type="submit" id="btn-9">9</button>
             </div>
           </form>
         </div>
