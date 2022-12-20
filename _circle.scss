@@ -5,6 +5,8 @@
   }
   &__one {
     margin-bottom: 100px;
+    border-radius: 50%;
+    padding: 40px;
   }
   &__left {
     width: 430px;
@@ -24,14 +26,16 @@
     }
   }
   &__two {
-    max-width: 200px;
+    padding: 34px;
+    width: 200px;
+    margin-bottom: 100px;
+    border-radius: 50%;
   }
   &__right {
-    width: 700px;
+    width: 135px;
     display: flex;
     gap: 30px;
     &--two {
-      width: 700px;
       display: flex;
       gap: 30px;
       margin-left: 37px;
@@ -50,7 +54,7 @@
     border-radius: 5px;
     box-shadow: 0px 0px 1.5px 6px grey;
 
-    margin-left: 250px;
+    margin-left: 155px;
     padding: 10px;
   }
 }
